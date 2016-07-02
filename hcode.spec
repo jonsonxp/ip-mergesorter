@@ -28,14 +28,14 @@
   "platforms": {
     "shell-vc707-xillybus-ap_fifo32": {
       "shell": "shell-vc707-xillybus-ap_fifo32",
-      "data-width": 32,
+      "data_width": 32,
       "size": 128,
       "clk_period": 5.714,
       "reference": " ip_mergesorter ip_mergesorter_0 (.ap_clk(ip_clk), .ap_rst(~ip_rst_n), .in_V_V_dout(in_r_dout), .in_V_V_empty_n(in_r_empty_n), .in_V_V_read(in_r_read), .out_V_V_din(out_r_din), .out_V_V_full_n(!out_r_full), .out_V_V_write(out_r_write));"
     },
     "shell-zybo-xillybus-ap_fifo32": {
       "shell": "shell-zybo-xillybus-ap_fifo32",
-      "data-width": 32,
+      "data_width": 32,
       "size": 32,
       "clk_period": 8,
       "reference": " ip_mergesorter ip_mergesorter_0 (.ap_clk(ip_clk), .ap_rst(~ip_rst_n), .in_V_V_dout(in_r_dout), .in_V_V_empty_n(in_r_empty_n), .in_V_V_read(in_r_read), .out_V_V_din(out_r_din), .out_V_V_full_n(!out_r_full), .out_V_V_write(out_r_write));"
